@@ -17,34 +17,40 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <h2>Post-Install Configuration Objectives</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Configure Roles and Departments 
+- Configure Teams and allow anyone to create ticekts 
+- Now we will configure agents/workers and user/customers 
+- Configure SLA
+- Configure Help Topics 
 
 <h2>Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+<a href="https://imgur.com/lD0ilCu"><img src="https://i.imgur.com/lD0ilCu.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/pxmkcgp"><img src="https://i.imgur.com/pxmkcgp.png" title="source: imgur.com" /></a>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In this first part of post installition for osTicket, we will create a role called Supreme Admin. To essentially give out "agents" access to everything. Tickets circualte through departments in help desk so we will create one for this project as well. 
 </p>
 <br />
+<p>
+<a href="https://imgur.com/fR9wiiZ"><img src="https://i.imgur.com/fR9wiiZ.png" title="source: imgur.com" /></a>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+Creating our teams, allows you to pull agents from differnt departments into one team which is demonstrated above. To create said team you will select admin panel, locate the agents tab and click on teams then add new team and fill out information. Adding agents to the team and checking corresponding box next to the team name. Then allow anyone to create tickets through setting, user settings fill out registration and login back in to create tickets. 
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+ <a href="https://imgur.com/6ypubdo"><img src="https://i.imgur.com/6ypubdo.png" title="source: imgur.com" /></a> 
+  
+In this step we will add agents. I created the user(essentially our workers)  Jane and john Doe for the activity. Through again the admin panels and under agents to add new agents. With the creation of user through the agent panel you can add the user to an organzistion of the help desk 
+
 </p>
 <br />
+<a href="https://imgur.com/CrvmofV"><img src="https://i.imgur.com/CrvmofV.png" title="source: imgur.com" /></a>
+
+SLA Plans are placed to provide a lenght of time in which Admin expects tickets to tbe closed. They can be creatd by the admin panel, manage, SLA Plans adding a new SLA plan. 
+
+</p>
+<br />
+<a href="https://imgur.com/AoMyQOe"><img src="https://i.imgur.com/AoMyQOe.png" title="source: imgur.com" /></a>
+
+Finally we will configure Help topics, creating topics such as Business Criical Outage, Personal Computer Issues, Equipment Request, and Password Reset. 
